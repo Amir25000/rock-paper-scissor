@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  background: linear-gradient( to left,rgb(5, 65, 5),rgb(1, 48, 1));
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    position: relative;
+    max-width: 800px;
+    top: 110px;
+    margin: auto;
+}
+.game{
+    background-color: #c3f6c6;
+    margin: 10px;
+    padding: 5px;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgb(205, 228, 205);
+}
+
+.results{
+    background-color: #06c934;
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgb(205, 228, 205);
+}
+.buttons{
+  padding: 15px;
+  display: grid;
+  margin: 20px;
+  width: 50%;
+  height: 13%;
+  position: relative;
+  margin-left: 25%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+.buttons:hover,#reset:hover,.result:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+#result{
+  font-size: 30px;
+  color: greenyellow;
+  position:relative;
+  bottom: 2.5rem;
+}
+#rs{
+  position: relative;
+  bottom: 20px;
+  background: linear-gradient(to right,rgb(206, 240, 216),rgb(19, 187, 7));
+  background-clip: text;
+  color:transparent ;
+}
+.result{
+  background-color: black;
+  height: 100px;
+  position: relative;
+  top: 5rem;
+  max-width: 250px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+}
+h1{
+  background: linear-gradient(to right,rgb(18, 194, 71),rgb(6, 6, 6));
+  background-clip: text;
+  color:transparent ;
+  font-weight: 200;
+}
+.Ps{
+  top: 7rem;
+  position: relative;
+  color: white;
+  font-weight: 400;
+}
+#fist,#hand,#cut{
+  position: relative;
+  bottom: 15px;
+  left: 3rem;
+  color: #06c934;
+  font-size: 20px;
+}
+#reset{
+  position: relative;
+  top: 10rem;
+  padding: 9px;
+  width: 60%;
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+#resetbtn{
+  color: #06c934;
+}
+#computer{
+  background-color: #c3f6c6;
+  max-width: 350px;
+  margin: auto;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  margin-top: 5rem;
+  box-shadow: 0px 0px 20px rgb(205, 228, 205);
+}
+#computer:hover ,.game:hover,.results:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
