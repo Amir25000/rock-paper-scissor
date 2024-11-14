@@ -30,7 +30,7 @@ function getPcMove(){
 }
  
 function playGame(userMove){
-    updateScore();
+   
     let computerMove = getPcMove();
 
     if(computerMove === userMove){
@@ -48,7 +48,7 @@ function playGame(userMove){
         computer.textContent = computerMove;
         score.wins+=1;
     }
-    
+     updateScore();
 }
 function updateScore(){
   winsScore.textContent = 'WINS 🏆: ' + score.wins;
